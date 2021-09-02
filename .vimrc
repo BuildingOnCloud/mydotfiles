@@ -61,3 +61,9 @@ noremap <c-k> <c-w><c-k>
 noremap <c-l> <c-w><c-l>
 
 command! Bd :bp | :sp | :bn | :bd  " Close buffer without closing window.
+
+:vmap <Tab> >
+:vmap <S-Tab> <
+
+set​ nocompatible
+​ 	​filetype​ plugin ​on​
